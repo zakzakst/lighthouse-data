@@ -5,7 +5,8 @@
   "author": "zakzakst <e1433104@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "lighthouse": "node --experimental-modules ./tasks/lighthouse.mjs"
+    "lighthouse": "node --experimental-modules ./tasks/lighthouse.mjs",
+    "list": "node --experimental-modules ./tasks/lighthouse-list.mjs"
   },
   "devDependencies": {
     "chrome-launcher": "^1.0.0",
